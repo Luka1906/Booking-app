@@ -55,6 +55,7 @@ btn[3].onclick = function() {
     slide.style.transform = "translateX(-2400px)";
     for (let i = 0; i < 4; i++) {
         btn[i].classList.remove("active");
+        
 }
 this.classList.add("active");
 }
