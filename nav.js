@@ -6,10 +6,7 @@ let nav = `<ul>
                      <a href ="about.html">About</a>
                   </li>
                   <li>
-                     <a href ="#">Sign in</a>
-                  </li>
-                  <li>
-                     <a href = "#">Log in </a>
+                     <a href ="signUp.html">Sign up</a>
                   </li>
               </ul>`;
 
