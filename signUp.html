@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+    <header>
+        <div class="left">
+        <h1>BookMe</h1>
+        <!-- <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div> -->
+        </div>
+        <nav>
+        </nav>
+       </header>
+    <div class="container1">
+        <form action="#" class="form" id="login">
+           <h1 class="form__title">Login</h1>  
+           <div class="form__message form__message--error"></div>
+           <div class="form__input-group">
+               <input type="text" class="form__input" autofocus placeholder="Username or email">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input password__visibility" autofocus placeholder="Password">
+               <i class="visibility__button"><span id="icon" class = "material-icons icon">visibility</span></i> 
+                <div class="form__input-error-message"></div> 
+           </div>
+           <button class="form__button" type="submit ">Continue</button>
+           <p class="form__text">
+                <a href="#" class="form__link">Forgot your password</a>
+           </p>
+           <p class="form__text">
+            <a href="#" class="form__link" id="linkCreateAccount">Don't have an account? Create account</a>
+       </p>
+        </form>
+        <form action="#" class="form form__hidden" id="createAccount">
+            <h1 class="form__title">Create Account</h1>  
+            <div class="form__message form__message--error"></div>
+            <div class="form__input-group">
+                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Username">
+                 <div class="form__input-error-message"></div>
+             </div>
+             <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Email Address">
+                 <div class="form__input-error-message"></div>
+             </div> 
+             <div class="form__input-group">
+                 <input type="password" class="form__input password__visibility" autofocus placeholder="Password">
+                 <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus placeholder="Confirm password">
+                <div class="form__input-error-message"></div>
+           </div>
+            <button class="form__button" type="submit ">Continue</button>
+            <p class="form__text">
+             <a href="#" class="form__link" id="linkLogin">Already have an account? Sign in</a>
+        </p>
+         </form>
+    </div>
+    <footer> 
+        <p>Copyright &#169; Luka Matovic</p>
+    </footer>
+    <script src="nav.js"></script>
+    <script src="signUp.js"></script>
+</body>
+</html>
