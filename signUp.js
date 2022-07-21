@@ -49,6 +49,38 @@ document.addEventListener("DOMContentLoaded", () => {
         }
      
     });
+    
+    const visibilityBtn1 =  document.querySelector(`.visibility__button1`)
+    visibilityBtn1.addEventListener("click", () => {
+        const password1 = document.querySelector(".password__visibility1");
+        const icon1 = document.getElementById("icon1")
+        if (password1.type === "password") {
+            password1.type = "text";
+            icon1.innerText = "visibility_off"
+
+        }
+        else {
+           password1.type = "password";
+           icon1.innerText = "visibility"
+        }
+     
+    });
+
+    const visibilityBtn2 =  document.querySelector(`.visibility__button2`)
+    visibilityBtn2.addEventListener("click", () => {
+        const password2 = document.querySelector(".password__visibility2");
+        const icon2 = document.getElementById("icon2")
+        if (password2.type === "password") {
+            password2.type = "text";
+            icon2.innerText = "visibility_off"
+
+        }
+        else {
+           password2.type = "password";
+           icon2.innerText = "visibility"
+        }
+     
+    });
  
 
 
